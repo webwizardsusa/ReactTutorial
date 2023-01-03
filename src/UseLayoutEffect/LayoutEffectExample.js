@@ -18,8 +18,7 @@ export default function LayoutEffectExample() {
   
     {show && (
     <div style={{ position: "absolute" }} ref={popup}>
-    This is a popup menu from from from from from from from from from from from from from from from from from from from
-    new
+    This is a popup menu from Header
     </div>
     )
     }
