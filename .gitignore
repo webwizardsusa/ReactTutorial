@@ -1,0 +1,84 @@
+vendor
+var
+node_modules
+.idea
+.envscripts
+.env.local
+.env
+config.local.yaml
+config.local.php
+docker-compose.override.yml
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+assets/gulp/.yarn/*
+!assets/gulp/.yarn/patches
+!assets/gulp/.yarn/plugins
+!assets/gulp/.yarn/releases
+!assets/gulp/.yarn/sdks
+!assets/gulp/.yarn/versions
+
+public/dist/**/*
+
+.eslintcache
+
+###> squizlabs/php_codesniffer ###
+/.phpcs-cache
+/phpcs.xml
+###< squizlabs/php_codesniffer ###
+
+###> friendsofphp/php-cs-fixer ###
+/.php-cs-fixer.php
+/.php-cs-fixer.cache
+###< friendsofphp/php-cs-fixer ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
+
+###> symfony/webpack-encore-bundle ###
+/node_modules/
+/public/build/
+npm-debug.log
+yarn-error.log
+###< symfony/webpack-encore-bundle ###
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+/public/translations
+test-results/
+playwright-report/
+
+###> baldinof/roadrunner-bundle ###
+/bin/rr
+###< baldinof/roadrunner-bundle ###
+.fleet
+build.env

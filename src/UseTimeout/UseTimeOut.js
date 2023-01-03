@@ -8,7 +8,7 @@ return (<>
 
 <div> {count}</div>
 <button onClick={() => setCount(c => c + 1)}>Increment</button>
-<button onClick={clear}>Clear Timeout</button>
-<button onClick={reset}>Reset Timeout</button>
+<button onClick={clear}>Clear - Timeout</button>
+<button onClick={reset}>Reset - Timeout</button>
 </>)
 }

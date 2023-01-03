@@ -3,19 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 // import ReducerExample from './App';
-// import LayoutEffectExample from './LayoutEffectExample'
+import LayoutEffectExample from './UseLayoutEffect/LayoutEffectExample'
 // import reportWebVitals from './reportWebVitals';
 // import DeferredValueExample from './DeferredValueExample'
 // import UseTransitionExample from './UseTransitionExample'
-import TimeoutComponent from './UseTimeout/UseTimeOut'
+// import TimeoutComponent from './UseTimeout/UseTimeOut'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <LayoutEffectExample /> */}
+    <LayoutEffectExample />
     {/* <DeferredValueExample /> */}
     {/* <UseTransitionExample /> */}
-    <TimeoutComponent />
+    {/* <TimeoutComponent /> */}
 
   </React.StrictMode>
 );
